@@ -15,13 +15,13 @@ public class Asset: NSObject {
     let updated: Date
     let name: String
     let mediaType: String
-    let url: String
+    public let url: String
     let size: Int
     let width: Int?
     let height: Int?
     let duration: Int?
     
-    init(id: Int, created: Date, updated: Date, name: String, mediaType: String, url: String, size: Int, width: Int?, height: Int?, duration: Int?) {
+    public init(id: Int, created: Date, updated: Date, name: String, mediaType: String, url: String, size: Int, width: Int?, height: Int?, duration: Int?) {
         self.id = id
         self.created = created
         self.updated = updated
