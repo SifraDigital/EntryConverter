@@ -1,8 +1,8 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "4467f07d5507a05d36f9981179faa399"
-build_time: [1598863202, 746991000]
+options: "dd993780285bbc60aea953dd4df4ef20"
+build_time: [1598864217, 159777000]
 inputs:
   "/Users/chaimgross/Desktop/EntryConverter/EntryConverter/Source/Entry.swift": [1598863193, 502467386]
   "/Users/chaimgross/Desktop/EntryConverter/EntryConverter/Source/Asset.swift": [1598288646, 568075183]
-  "/Users/chaimgross/Desktop/EntryConverter/EntryConverter/Source/Converter.swift": [1598863202, 693268807]
+  "/Users/chaimgross/Desktop/EntryConverter/EntryConverter/Source/Converter.swift": [1598864217, 24764266]
   "/Users/chaimgross/Desktop/EntryConverter/EntryConverter/Source/Field.swift": [1564952891, 492606665]

@@ -7,6 +7,8 @@ target 'EntryConverter' do
 
   # Pods for EntryConverter
 	pod 'Runtime', '~> 2.1.1'
+	pod 'SwiftyJSON'
+
 
   target 'EntryConverterTests' do
     # Pods for testing

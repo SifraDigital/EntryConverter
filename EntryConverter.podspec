@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EntryConverter"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "EntryConverter is a Sifra Digital library to convert Entry objects"
 
   # This description is used to generate tags and improve search results.
@@ -134,5 +134,5 @@ This library is to parse Entry Objects
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "Runtime", "~> 2.1.1"
-
+  spec.dependency "SwiftyJSON", "~> 5.0.0"
 end

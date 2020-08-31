@@ -2,19 +2,23 @@ PODS:
   - CRuntime (2.1.2)
   - Runtime (2.1.1):
     - CRuntime
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Runtime (~> 2.1.1)
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - CRuntime
     - Runtime
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   CRuntime: d7ae373e07ab36e92ad273259557e3817e0c214b
   Runtime: 2b0e7604e598b52c698c64f0b961640c074ed75e
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 33f6da6d269a410a735ce203e7880c54a7ffbffb
+PODFILE CHECKSUM: 3a9b4d18a636463a37757a72924a52040f46c168
 
 COCOAPODS: 1.9.3

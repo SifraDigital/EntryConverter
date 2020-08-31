@@ -8,9 +8,68 @@
 
 import Foundation
 import Runtime
+import SwiftyJSON
+
 
 public class EntryConverter {
-     public static func fromEntry(entry: Entry, clazz: NSObject.Type) -> Any? {
+    
+    private static let dateTimeFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .iso8601)
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSX"
+        return formatter
+    }()
+    
+    private static let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .iso8601)
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.timeZone = TimeZone(secondsFromGMT: 0)
+        formatter.dateFormat = "yyyy-MM-ddX"
+        return formatter
+    }()
+    
+    public static func fromJSON(json: JSON, clazz: NSObject.Type) -> Any? {
+        let entry = deserializeEntry(json)
+        return fromEntry(entry: entry, clazz: clazz)
+    }
+    
+    private static func deserializeEntry(_ json: JSON) -> Entry {
+        let id = json["id"].intValue
+        let created = EntryConverter.dateFormatter.date(from: json["created"].stringValue)!
+        let updated = EntryConverter.dateFormatter.date(from: json["updated"].stringValue)!
+        let fields = json["fields"].arrayValue.map { deserializeField($0) }.compactMap { $0 }
+        
+        return Entry(id: id, created: Date(), updated: Date(), fields: fields)
+    }
+    
+    private static func deserializeField(_ json: JSON) -> Field? {
+        let key = json["key"].stringValue
+        let type = json["type"].stringValue
+        if let value = deserializeValue(json["value"]) {
+            return Field(key: key, value: value, type: type)
+        }
+        return nil
+    }
+    
+    private static func deserializeValue(_ json: JSON) -> Any? {
+        if (!json.exists()) {
+            return nil
+        }
+        if let s = json.string {
+            return s
+        }
+        else if let array = json.array {
+            return array.map { deserializeValue($0) }
+        }
+        else {
+            return deserializeEntry(json)
+        }
+    }
+    
+    public static func fromEntry(entry: Entry, clazz: NSObject.Type) -> Any? {
         do {
             var result = try createInstance(of: clazz)
             let info = try typeInfo(of: clazz)

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "db5527ad6ebe837a0e047c8b1c3104c9"
-build_time: [1598858798, 866687000]
+build_time: [1598863649, 322617000]
 inputs:
   "/Users/chaimgross/Desktop/EntryConverter/Pods/Runtime/Sources/Runtime/Models/Case.swift": [1598296923, 591393827]
   "/Users/chaimgross/Desktop/EntryConverter/Pods/Runtime/Sources/Runtime/Layouts/ClassHeader.swift": [1598296923, 598045097]
