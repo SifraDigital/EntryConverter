@@ -38,11 +38,19 @@ public class EntryConverter {
     
     private static func deserializeEntry(_ json: JSON) -> Entry {
         let id = json["id"].intValue
-        let created = EntryConverter.dateFormatter.date(from: json["created"].stringValue)!
-        let updated = EntryConverter.dateFormatter.date(from: json["updated"].stringValue)!
+        let created = getDate(json["created"].stringValue)!
+        let updated = getDate( json["updated"].stringValue)!
         let fields = json["fields"].arrayValue.map { deserializeField($0) }.compactMap { $0 }
         
-        return Entry(id: id, created: Date(), updated: Date(), fields: fields)
+        return Entry(id: id, created: created, updated: updated, fields: fields)
+    }
+    
+    private static func getDate(_ dateString: String) -> Date? {
+        let d = EntryConverter.dateTimeFormatter.date(from: dateString)
+        if d != nil {
+            return d
+        }
+        return EntryConverter.dateFormatter.date(from: dateString)
     }
     
     private static func deserializeField(_ json: JSON) -> Field? {
