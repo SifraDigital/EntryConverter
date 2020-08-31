@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Entry {
+public class Entry {
     
     private static let dateTimeFormatter: DateFormatter = {
         let formatter = DateFormatter()
