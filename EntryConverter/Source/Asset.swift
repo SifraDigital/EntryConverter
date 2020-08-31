@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Asset: NSObject {
+public class Asset: NSObject {
     
     let id: Int
     let created: Date

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/EntryConverter-Swift.h</key>
 		<data>
-		5ap+LLXPJL9O1f7nn1u+8D7W3QM=
+		66phAmCjp+UJi4YwE5IuCAZlYCg=
 		</data>
 		<key>Headers/EntryConverter.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		OiaEqWnpp1SnZ+Jj/U6zn+3rh1U=
+		yd+++0J20pXf3w0ehVUkQhXZTnk=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		OiaEqWnpp1SnZ+Jj/U6zn+3rh1U=
+		yd+++0J20pXf3w0ehVUkQhXZTnk=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e9G9kHFDysn8UY6lKAXPprmYLEM=
+		XMtrCajZX6dlIsGqYsQSVYeH2Ho=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		e9G9kHFDysn8UY6lKAXPprmYLEM=
+		XMtrCajZX6dlIsGqYsQSVYeH2Ho=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dxlu6zt/pTRLV8tDjACXcaNyxtfbaxuLFRm/UkfGNEw=
+			c5HqFJc9aBCbt5KjkCzif/Wk7SPCUDtrPielxxljByY=
 			</data>
 		</dict>
 		<key>Headers/EntryConverter.h</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W5NOPFaV+qprmhh84AtdNgTKV1qXx/khu8pL0f4nCRk=
+			RsvHOyqUmqU7RtzBKAuLpwR0g5fQR+QODw/Gm+7TDss=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W5NOPFaV+qprmhh84AtdNgTKV1qXx/khu8pL0f4nCRk=
+			RsvHOyqUmqU7RtzBKAuLpwR0g5fQR+QODw/Gm+7TDss=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tI2pGQ5pBhLhPZNuJcFbrSkCt3meyLi9BOn+iFbmHEM=
+			6sHTPeHKOgovja1CIovfDE+kpQ+G2ZBA8C0yCRg2ovs=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tI2pGQ5pBhLhPZNuJcFbrSkCt3meyLi9BOn+iFbmHEM=
+			6sHTPeHKOgovja1CIovfDE+kpQ+G2ZBA8C0yCRg2ovs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
