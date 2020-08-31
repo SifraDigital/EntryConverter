@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EntryConverter"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "EntryConverter is a Sifra Digital library to convert Entry objects"
 
   # This description is used to generate tags and improve search results.

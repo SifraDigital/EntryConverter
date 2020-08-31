@@ -10,7 +10,7 @@ import Foundation
 import Runtime
 
 public final class EntryConverter {
-    func fromEntry(entry: Entry, clazz: NSObject.Type) -> Any? {
+     static func fromEntry(entry: Entry, clazz: NSObject.Type) -> Any? {
         do {
             var result = try createInstance(of: clazz)
             let info = try typeInfo(of: clazz)

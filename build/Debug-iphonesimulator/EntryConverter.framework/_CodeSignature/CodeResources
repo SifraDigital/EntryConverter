@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7FW2phkr91ae3EOd6Ylvjyle434=
+		R3F78T4fDk+4aJuf9kxFwI0OlZE=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		T+3X3cG2w4VRw5cuBIP6XBLFFxc=
+		FcZH7hK3b6BAth6e1dtUQj01VKM=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		T+3X3cG2w4VRw5cuBIP6XBLFFxc=
+		FcZH7hK3b6BAth6e1dtUQj01VKM=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0lNBJ6UA/rCsnZb1h7k/WGKEwJk=
+		CxSqa7BwhEPeJbMrah7hrV8Uljc=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gLlVVskzMQvbZ9Ex53zpK9W1iW8=
+		tu+5sFlyU3HlKCpDJT+kB92pJaY=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		0lNBJ6UA/rCsnZb1h7k/WGKEwJk=
+		CxSqa7BwhEPeJbMrah7hrV8Uljc=
 		</data>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		gLlVVskzMQvbZ9Ex53zpK9W1iW8=
+		tu+5sFlyU3HlKCpDJT+kB92pJaY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s87B16iBND1+SKsfP4KJ1XRmSW9eCboA6ipzj+vNfkg=
+			ZpnzV9ctOtZDWZZr6umjMtV8lks3qMg/ukTRlItGVRE=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s87B16iBND1+SKsfP4KJ1XRmSW9eCboA6ipzj+vNfkg=
+			ZpnzV9ctOtZDWZZr6umjMtV8lks3qMg/ukTRlItGVRE=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+q0QKSv4QvGO56NpBi7kw61glGUFbo19DC/WpoI7Ebg=
+			OzLmibIX0ybxfDfNwPw0IyHrrvEozvI+XkrEl1GZl1w=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aQdJ5XwC+oGcLk0rzFoDOJCi7d+vtJB/QwLoIh37cl0=
+			G47Jgere/0dl4MH5+QUWCoG/EkL9AhtvlS/Pgxi/zHo=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+q0QKSv4QvGO56NpBi7kw61glGUFbo19DC/WpoI7Ebg=
+			OzLmibIX0ybxfDfNwPw0IyHrrvEozvI+XkrEl1GZl1w=
 			</data>
 		</dict>
 		<key>Modules/EntryConverter.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aQdJ5XwC+oGcLk0rzFoDOJCi7d+vtJB/QwLoIh37cl0=
+			G47Jgere/0dl4MH5+QUWCoG/EkL9AhtvlS/Pgxi/zHo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
