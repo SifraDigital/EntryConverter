@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EntryConverter"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "EntryConverter is a Sifra Digital library to convert Entry objects"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ This library is to parse Entry Objects
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/SifraDigital/EntryConverter.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SifraDigital/EntryConverter.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
