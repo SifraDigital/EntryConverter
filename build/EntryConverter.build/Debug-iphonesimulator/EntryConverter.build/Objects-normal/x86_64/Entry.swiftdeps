@@ -1,0 +1,301 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Entry"
+provides-nominal:
+- "14EntryConverter0A0C"
+provides-member:
+- ["14EntryConverter0A0C", ""]
+provides-dynamic-lookup:
+- "created"
+- "dateFormatter"
+- "dateTimeFormatter"
+- "fields"
+- "getBool"
+- "getDate"
+- "getInt"
+- "getReference"
+- "getReferenceArray"
+- "getString"
+- "id"
+- "updated"
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Calendar"
+- "CastingPrecedence"
+- "Date"
+- "DateFormatter"
+- "Entry"
+- "Field"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Locale"
+- "String"
+- "StringLiteralType"
+- "TimeZone"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "first"]
+- !private ["SK", "first"]
+- !private ["Sz", "init"]
+- ["s7CVarArgP", "calendar"]
+- !private ["s7CVarArgP", "date"]
+- ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "locale"]
+- ["s7CVarArgP", "timeZone"]
+- ["10Foundation8CalendarV", "init"]
+- !private ["Sl", "first"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["s28CustomDebugStringConvertibleP", "calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "calendar"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "locale"]
+- ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- ["So15NSDateFormatterC", "calendar"]
+- !private ["So15NSDateFormatterC", "date"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "locale"]
+- ["So15NSDateFormatterC", "timeZone"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["7Runtime18DefaultConstructorP", "first"]
+- !private ["7Runtime18DefaultConstructorP", "init"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- ["14EntryConverter0A0C", "Bool"]
+- ["14EntryConverter0A0C", "Calendar"]
+- ["14EntryConverter0A0C", "Date"]
+- ["14EntryConverter0A0C", "DateFormatter"]
+- ["14EntryConverter0A0C", "Entry"]
+- ["14EntryConverter0A0C", "Field"]
+- ["14EntryConverter0A0C", "Int"]
+- ["14EntryConverter0A0C", "Locale"]
+- ["14EntryConverter0A0C", "String"]
+- ["14EntryConverter0A0C", "TimeZone"]
+- ["14EntryConverter0A0C", "created"]
+- !private ["14EntryConverter0A0C", "dateFormatter"]
+- !private ["14EntryConverter0A0C", "dateTimeFormatter"]
+- ["14EntryConverter0A0C", "deinit"]
+- ["14EntryConverter0A0C", "fields"]
+- ["14EntryConverter0A0C", "getBool"]
+- ["14EntryConverter0A0C", "getDate"]
+- ["14EntryConverter0A0C", "getInt"]
+- ["14EntryConverter0A0C", "getReference"]
+- ["14EntryConverter0A0C", "getReferenceArray"]
+- ["14EntryConverter0A0C", "getString"]
+- ["14EntryConverter0A0C", "id"]
+- ["14EntryConverter0A0C", "init"]
+- ["14EntryConverter0A0C", "updated"]
+- ["SQ", "calendar"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "date"]
+- ["SQ", "dateFormat"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- ["SQ", "iso8601"]
+- ["SQ", "locale"]
+- ["SQ", "timeZone"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["14EntryConverter5FieldC", "key"]
+- !private ["14EntryConverter5FieldC", "value"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["So11NSFormatterC", "calendar"]
+- !private ["So11NSFormatterC", "date"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "locale"]
+- ["So11NSFormatterC", "timeZone"]
+- ["SH", "calendar"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "date"]
+- ["SH", "dateFormat"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- ["SH", "iso8601"]
+- ["SH", "locale"]
+- ["SH", "timeZone"]
+- ["10Foundation8CalendarV10IdentifierO", "iso8601"]
+- !private ["Si", "init"]
+- ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["So8NSCodingP", "calendar"]
+- !private ["So8NSCodingP", "date"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "locale"]
+- ["So8NSCodingP", "timeZone"]
+- ["So9NSCopyingP", "calendar"]
+- !private ["So9NSCopyingP", "date"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "locale"]
+- ["So9NSCopyingP", "timeZone"]
+- ["So8NSObjectC", "calendar"]
+- !private ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "timeZone"]
+- ["So8NSObjectP", "calendar"]
+- !private ["So8NSObjectP", "date"]
+- ["So8NSObjectP", "dateFormat"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "locale"]
+- ["So8NSObjectP", "timeZone"]
+- !private ["Sj", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "first"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- ["10Foundation8TimeZoneV", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calendar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "calendar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- "10Foundation8CalendarV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "So15NSDateFormatterC"
+- "Se"
+- !private "7Runtime18DefaultConstructorP"
+- "SE"
+- "14EntryConverter0A0C"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "14EntryConverter5FieldC"
+- !private "s17FixedWidthIntegerP"
+- "So11NSFormatterC"
+- "SH"
+- "10Foundation8CalendarV10IdentifierO"
+- !private "Si"
+- "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "10Foundation8TimeZoneV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/Runtime/Runtime.framework/Modules/Runtime.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/Runtime/Runtime.framework/Headers/Runtime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/CRuntime/CRuntime.framework/Headers/CRuntime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/CRuntime/CRuntime.framework/Headers/CRuntime.h"
+- "/Users/chaimgross/Desktop/EntryConverter/EntryConverter/EntryConverter.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/Runtime/Runtime.framework/Headers/Runtime-Swift.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/EntryConverter.build/Debug-iphonesimulator/EntryConverter.build/unextended-module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/Runtime/Runtime.framework/Modules/module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/CRuntime/CRuntime.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4846dfecb4fb50a78fde74ee9f0207e1"

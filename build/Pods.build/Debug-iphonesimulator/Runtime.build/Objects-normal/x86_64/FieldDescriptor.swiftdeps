@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FieldDescriptor"
+- "FieldRecord"
+- "FieldDescriptorKind"
+provides-nominal:
+- "7Runtime15FieldDescriptorV"
+- "7Runtime11FieldRecordV"
+- "7Runtime19FieldDescriptorKindO"
+provides-member:
+- ["7Runtime15FieldDescriptorV", ""]
+- ["7Runtime11FieldRecordV", ""]
+- ["7Runtime19FieldDescriptorKindO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "+="
+- !private "-"
+- !private "<="
+- "=="
+- !private ">="
+- "Bool"
+- "FieldDescriptor"
+- "FieldDescriptorKind"
+- "FieldRecord"
+- "FloatLiteralType"
+- !private "Int"
+- "Int16"
+- "Int32"
+- "Int8"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- !private "Optional"
+- "RelativePointer"
+- "String"
+- "UInt16"
+- "UInt8"
+- "UnsafeRawPointer"
+- "Vector"
+- !private "swift_getTypeByMangledNameInContext"
+- !private "unsafeBitCast"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "init"]
+- !private ["SL", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s23CustomStringConvertibleP", "advanced"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["7Runtime18DefaultConstructorP", "init"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "assumingMemoryBound"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "load"]
+- ["SQ", "rawValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["7Runtime15FieldDescriptorV", "FieldDescriptorKind"]
+- ["7Runtime15FieldDescriptorV", "FieldRecord"]
+- ["7Runtime15FieldDescriptorV", "Int16"]
+- ["7Runtime15FieldDescriptorV", "Int32"]
+- ["7Runtime15FieldDescriptorV", "UInt16"]
+- ["7Runtime15FieldDescriptorV", "Vector"]
+- ["7Runtime15FieldDescriptorV", "_kind"]
+- ["7Runtime15FieldDescriptorV", "fieldRecordSize"]
+- ["7Runtime15FieldDescriptorV", "fields"]
+- ["7Runtime15FieldDescriptorV", "init"]
+- ["7Runtime15FieldDescriptorV", "kind"]
+- ["7Runtime15FieldDescriptorV", "mangledTypeNameOffset"]
+- ["7Runtime15FieldDescriptorV", "numFields"]
+- ["7Runtime15FieldDescriptorV", "superClassOffset"]
+- ["7Runtime19FieldDescriptorKindO", "=="]
+- ["7Runtime19FieldDescriptorKindO", "RawValue"]
+- ["7Runtime19FieldDescriptorKindO", "_Default_RawValue"]
+- ["7Runtime19FieldDescriptorKindO", "_rawHashValue"]
+- ["7Runtime19FieldDescriptorKindO", "class"]
+- ["7Runtime19FieldDescriptorKindO", "classProtocol"]
+- ["7Runtime19FieldDescriptorKindO", "deinit"]
+- ["7Runtime19FieldDescriptorKindO", "enum"]
+- ["7Runtime19FieldDescriptorKindO", "hash"]
+- ["7Runtime19FieldDescriptorKindO", "hashValue"]
+- ["7Runtime19FieldDescriptorKindO", "init"]
+- ["7Runtime19FieldDescriptorKindO", "multiPayloadEnum"]
+- ["7Runtime19FieldDescriptorKindO", "objcClass"]
+- ["7Runtime19FieldDescriptorKindO", "objcProtocol"]
+- ["7Runtime19FieldDescriptorKindO", "protocol"]
+- ["7Runtime19FieldDescriptorKindO", "rawValue"]
+- ["7Runtime19FieldDescriptorKindO", "struct"]
+- ["7Runtime11FieldRecordV", "Bool"]
+- !private ["7Runtime11FieldRecordV", "Int"]
+- ["7Runtime11FieldRecordV", "Int32"]
+- ["7Runtime11FieldRecordV", "Int8"]
+- !private ["7Runtime11FieldRecordV", "MemoryLayout"]
+- !private ["7Runtime11FieldRecordV", "Optional"]
+- ["7Runtime11FieldRecordV", "RelativePointer"]
+- ["7Runtime11FieldRecordV", "String"]
+- ["7Runtime11FieldRecordV", "UInt8"]
+- ["7Runtime11FieldRecordV", "UnsafeRawPointer"]
+- ["7Runtime11FieldRecordV", "_fieldName"]
+- ["7Runtime11FieldRecordV", "_mangledTypeName"]
+- ["7Runtime11FieldRecordV", "fieldName"]
+- ["7Runtime11FieldRecordV", "fieldRecordFlags"]
+- ["7Runtime11FieldRecordV", "getSymbolicMangledNameLength"]
+- ["7Runtime11FieldRecordV", "init"]
+- ["7Runtime11FieldRecordV", "isVar"]
+- ["7Runtime11FieldRecordV", "mangedTypeName"]
+- !private ["7Runtime11FieldRecordV", "swift_getTypeByMangledNameInContext"]
+- ["7Runtime11FieldRecordV", "type"]
+- !private ["7Runtime11FieldRecordV", "unsafeBitCast"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "assumingMemoryBound"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "load"]
+- ["SH", "rawValue"]
+- !private ["s5Int32V", "deinit"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "init"]
+- !private ["Sq", "init"]
+- !private ["Sm", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["7Runtime15RelativePointerV", "advanced"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "load"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SV", "load"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "load"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "load"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "7Runtime18DefaultConstructorP"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "7Runtime15FieldDescriptorV"
+- "7Runtime19FieldDescriptorKindO"
+- "7Runtime11FieldRecordV"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "Sq"
+- !private "Sm"
+- "SY"
+- !private "7Runtime15RelativePointerV"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/Runtime/Runtime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/CRuntime/CRuntime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/Runtime.build/unextended-module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/CRuntime.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "06420c6282deb128eee9d1d36a43c373"

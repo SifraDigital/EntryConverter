@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StructMetadata"
+provides-nominal:
+- "7Runtime14StructMetadataV"
+provides-member:
+- ["7Runtime14StructMetadataV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "NominalMetadataType"
+- "StructMetadata"
+- "StructMetadataLayout"
+- "TypeInfo"
+- "UnsafeMutablePointer"
+depends-member:
+- ["7Runtime12MetadataInfoP", "Layout"]
+- !private ["7Runtime12MetadataInfoP", "TypeInfo"]
+- ["7Runtime12MetadataInfoP", ""]
+- ["7Runtime12MetadataInfoP", "_Default_Layout"]
+- ["7Runtime12MetadataInfoP", "alignment"]
+- ["7Runtime12MetadataInfoP", "genericArgumentOffset"]
+- !private ["7Runtime12MetadataInfoP", "genericArguments"]
+- ["7Runtime12MetadataInfoP", "init"]
+- ["7Runtime12MetadataInfoP", "kind"]
+- !private ["7Runtime12MetadataInfoP", "mangledName"]
+- ["7Runtime12MetadataInfoP", "pointer"]
+- !private ["7Runtime12MetadataInfoP", "properties"]
+- ["7Runtime12MetadataInfoP", "size"]
+- ["7Runtime12MetadataInfoP", "stride"]
+- ["7Runtime12MetadataInfoP", "toTypeInfo"]
+- ["7Runtime12MetadataTypeP", "Layout"]
+- !private ["7Runtime12MetadataTypeP", "TypeInfo"]
+- ["7Runtime12MetadataTypeP", ""]
+- ["7Runtime12MetadataTypeP", "_Default_Layout"]
+- ["7Runtime12MetadataTypeP", "alignment"]
+- ["7Runtime12MetadataTypeP", "genericArgumentOffset"]
+- !private ["7Runtime12MetadataTypeP", "genericArguments"]
+- ["7Runtime12MetadataTypeP", "init"]
+- ["7Runtime12MetadataTypeP", "kind"]
+- !private ["7Runtime12MetadataTypeP", "mangledName"]
+- ["7Runtime12MetadataTypeP", "pointer"]
+- !private ["7Runtime12MetadataTypeP", "properties"]
+- ["7Runtime12MetadataTypeP", "size"]
+- ["7Runtime12MetadataTypeP", "stride"]
+- ["7Runtime12MetadataTypeP", "toTypeInfo"]
+- ["7Runtime19NominalMetadataTypeP", "Layout"]
+- !private ["7Runtime19NominalMetadataTypeP", "TypeInfo"]
+- ["7Runtime19NominalMetadataTypeP", ""]
+- ["7Runtime19NominalMetadataTypeP", "_Default_Layout"]
+- ["7Runtime19NominalMetadataTypeP", "alignment"]
+- ["7Runtime19NominalMetadataTypeP", "genericArgumentOffset"]
+- !private ["7Runtime19NominalMetadataTypeP", "genericArguments"]
+- ["7Runtime19NominalMetadataTypeP", "init"]
+- ["7Runtime19NominalMetadataTypeP", "kind"]
+- !private ["7Runtime19NominalMetadataTypeP", "mangledName"]
+- ["7Runtime19NominalMetadataTypeP", "pointer"]
+- !private ["7Runtime19NominalMetadataTypeP", "properties"]
+- ["7Runtime19NominalMetadataTypeP", "size"]
+- ["7Runtime19NominalMetadataTypeP", "stride"]
+- ["7Runtime19NominalMetadataTypeP", "toTypeInfo"]
+- ["7Runtime14StructMetadataV", "Layout"]
+- ["7Runtime14StructMetadataV", "StructMetadataLayout"]
+- ["7Runtime14StructMetadataV", "TypeInfo"]
+- ["7Runtime14StructMetadataV", "UnsafeMutablePointer"]
+- ["7Runtime14StructMetadataV", "_Default_Layout"]
+- ["7Runtime14StructMetadataV", "alignment"]
+- ["7Runtime14StructMetadataV", "deinit"]
+- ["7Runtime14StructMetadataV", "genericArgumentOffset"]
+- !private ["7Runtime14StructMetadataV", "genericArguments"]
+- ["7Runtime14StructMetadataV", "init"]
+- ["7Runtime14StructMetadataV", "kind"]
+- !private ["7Runtime14StructMetadataV", "mangledName"]
+- ["7Runtime14StructMetadataV", "pointer"]
+- !private ["7Runtime14StructMetadataV", "properties"]
+- ["7Runtime14StructMetadataV", "size"]
+- ["7Runtime14StructMetadataV", "stride"]
+- ["7Runtime14StructMetadataV", "toTypeInfo"]
+- ["7Runtime20StructMetadataLayoutV", "deinit"]
+- !private ["7Runtime8TypeInfoV", "genericTypes"]
+- !private ["7Runtime8TypeInfoV", "init"]
+- !private ["7Runtime8TypeInfoV", "mangledName"]
+- !private ["7Runtime8TypeInfoV", "properties"]
+- ["7Runtime19TypeInfoConvertibleP", "Layout"]
+- !private ["7Runtime19TypeInfoConvertibleP", "TypeInfo"]
+- ["7Runtime19TypeInfoConvertibleP", ""]
+- ["7Runtime19TypeInfoConvertibleP", "_Default_Layout"]
+- ["7Runtime19TypeInfoConvertibleP", "alignment"]
+- ["7Runtime19TypeInfoConvertibleP", "genericArgumentOffset"]
+- !private ["7Runtime19TypeInfoConvertibleP", "genericArguments"]
+- ["7Runtime19TypeInfoConvertibleP", "init"]
+- ["7Runtime19TypeInfoConvertibleP", "kind"]
+- !private ["7Runtime19TypeInfoConvertibleP", "mangledName"]
+- ["7Runtime19TypeInfoConvertibleP", "pointer"]
+- !private ["7Runtime19TypeInfoConvertibleP", "properties"]
+- ["7Runtime19TypeInfoConvertibleP", "size"]
+- ["7Runtime19TypeInfoConvertibleP", "stride"]
+- ["7Runtime19TypeInfoConvertibleP", "toTypeInfo"]
+depends-nominal:
+- "7Runtime12MetadataInfoP"
+- "7Runtime12MetadataTypeP"
+- "7Runtime19NominalMetadataTypeP"
+- "7Runtime14StructMetadataV"
+- "7Runtime20StructMetadataLayoutV"
+- !private "7Runtime8TypeInfoV"
+- "7Runtime19TypeInfoConvertibleP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/Runtime/Runtime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/CRuntime/CRuntime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/Runtime.build/unextended-module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/CRuntime.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3cb1835b2715d13e930d06427a9ec927"

@@ -1,0 +1,10 @@
+framework module Runtime {
+  umbrella header "Runtime-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Runtime.__Swift {
+    exclude header "Runtime-Swift.h"
+}

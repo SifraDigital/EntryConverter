@@ -1,0 +1,6 @@
+framework module Pods_EntryConverter_EntryConverterTests {
+  umbrella header "Pods-EntryConverter-EntryConverterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

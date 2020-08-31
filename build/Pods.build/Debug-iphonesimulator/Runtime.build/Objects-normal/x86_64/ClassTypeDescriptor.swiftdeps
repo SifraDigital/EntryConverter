@@ -1,0 +1,138 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClassTypeDescriptor"
+- "TargetStoredClassMetadataBounds"
+- "TargetMetadataBounds"
+provides-nominal:
+- "7Runtime19ClassTypeDescriptorV"
+- "7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV"
+- "7Runtime31TargetStoredClassMetadataBoundsV"
+- "7Runtime20TargetMetadataBoundsV"
+provides-member:
+- ["7Runtime19ClassTypeDescriptorV", ""]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", ""]
+- ["7Runtime31TargetStoredClassMetadataBoundsV", ""]
+- ["7Runtime20TargetMetadataBoundsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CChar"
+- "ClassTypeDescriptor"
+- "ContextDescriptorFlags"
+- "FieldDescriptor"
+- "Int"
+- "Int32"
+- "RelativePointer"
+- "RelativeVectorPointer"
+- "TargetMetadataBounds"
+- "TargetStoredClassMetadataBounds"
+- "TargetTypeGenericContextDescriptorHeader"
+- "TypeDescriptor"
+- "UInt32"
+- "Union"
+- "UnsafeMutablePointer"
+depends-member:
+- ["7Runtime19ClassTypeDescriptorV", "CChar"]
+- ["7Runtime19ClassTypeDescriptorV", "ContextDescriptorFlags"]
+- ["7Runtime19ClassTypeDescriptorV", "FieldDescriptor"]
+- ["7Runtime19ClassTypeDescriptorV", "FieldOffsetVectorOffsetType"]
+- ["7Runtime19ClassTypeDescriptorV", "Int"]
+- ["7Runtime19ClassTypeDescriptorV", "Int32"]
+- ["7Runtime19ClassTypeDescriptorV", "NegativeSizeAndBoundsUnion"]
+- ["7Runtime19ClassTypeDescriptorV", "RelativePointer"]
+- ["7Runtime19ClassTypeDescriptorV", "RelativeVectorPointer"]
+- ["7Runtime19ClassTypeDescriptorV", "TargetStoredClassMetadataBounds"]
+- ["7Runtime19ClassTypeDescriptorV", "TargetTypeGenericContextDescriptorHeader"]
+- ["7Runtime19ClassTypeDescriptorV", "Union"]
+- ["7Runtime19ClassTypeDescriptorV", "UnsafeMutablePointer"]
+- ["7Runtime19ClassTypeDescriptorV", "_Default_FieldOffsetVectorOffsetType"]
+- ["7Runtime19ClassTypeDescriptorV", "deinit"]
+- ["7Runtime19ClassTypeDescriptorV", "fieldDescriptor"]
+- ["7Runtime19ClassTypeDescriptorV", "fieldTypesAccessor"]
+- ["7Runtime19ClassTypeDescriptorV", "flags"]
+- ["7Runtime19ClassTypeDescriptorV", "genericContextHeader"]
+- ["7Runtime19ClassTypeDescriptorV", "init"]
+- ["7Runtime19ClassTypeDescriptorV", "mangledName"]
+- ["7Runtime19ClassTypeDescriptorV", "metadataPositiveSizeInWords"]
+- ["7Runtime19ClassTypeDescriptorV", "negativeSizeAndBoundsUnion"]
+- ["7Runtime19ClassTypeDescriptorV", "numImmediateMembers"]
+- ["7Runtime19ClassTypeDescriptorV", "numberOfFields"]
+- ["7Runtime19ClassTypeDescriptorV", "offsetToTheFieldOffsetVector"]
+- ["7Runtime19ClassTypeDescriptorV", "parent"]
+- ["7Runtime19ClassTypeDescriptorV", "superClass"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "Int32"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "Raw"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "RelativePointer"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "TargetStoredClassMetadataBounds"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "UnsafeMutablePointer"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "_Default_Raw"]
+- !private ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "bind"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "deinit"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "init"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "metadataNegativeSizeInWords"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "raw"]
+- ["7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV", "resilientMetadataBounds"]
+- ["7Runtime20TargetMetadataBoundsV", "UInt32"]
+- ["7Runtime20TargetMetadataBoundsV", "init"]
+- ["7Runtime20TargetMetadataBoundsV", "negativeSizeWords"]
+- ["7Runtime20TargetMetadataBoundsV", "positiveSizeWords"]
+- ["7Runtime31TargetStoredClassMetadataBoundsV", "Int"]
+- ["7Runtime31TargetStoredClassMetadataBoundsV", "TargetMetadataBounds"]
+- ["7Runtime31TargetStoredClassMetadataBoundsV", "bounds"]
+- ["7Runtime31TargetStoredClassMetadataBoundsV", "immediateMembersOffset"]
+- ["7Runtime31TargetStoredClassMetadataBoundsV", "init"]
+- ["7Runtime14TypeDescriptorP", "FieldOffsetVectorOffsetType"]
+- ["7Runtime14TypeDescriptorP", "Union"]
+- ["7Runtime14TypeDescriptorP", ""]
+- ["7Runtime14TypeDescriptorP", "_Default_FieldOffsetVectorOffsetType"]
+- ["7Runtime14TypeDescriptorP", "fieldDescriptor"]
+- ["7Runtime14TypeDescriptorP", "flags"]
+- ["7Runtime14TypeDescriptorP", "genericContextHeader"]
+- ["7Runtime14TypeDescriptorP", "mangledName"]
+- ["7Runtime14TypeDescriptorP", "numberOfFields"]
+- ["7Runtime14TypeDescriptorP", "offsetToTheFieldOffsetVector"]
+- ["7Runtime5UnionP", "Raw"]
+- ["7Runtime5UnionP", ""]
+- ["7Runtime5UnionP", "_Default_Raw"]
+- !private ["7Runtime5UnionP", "bind"]
+- ["7Runtime5UnionP", "raw"]
+depends-nominal:
+- "7Runtime19ClassTypeDescriptorV"
+- "7Runtime19ClassTypeDescriptorV26NegativeSizeAndBoundsUnionV"
+- "7Runtime20TargetMetadataBoundsV"
+- "7Runtime31TargetStoredClassMetadataBoundsV"
+- "7Runtime14TypeDescriptorP"
+- "7Runtime5UnionP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/Runtime/Runtime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/CRuntime/CRuntime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/Runtime.build/unextended-module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/CRuntime.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "005475bcc946deda0844d94d532dad3b"

@@ -1,0 +1,156 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "withValuePointer"
+- "withClassValuePointer"
+- "withExistentialValuePointer"
+- "existentialHeaderSize"
+- "is64Bit"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- "Bool"
+- !private "ExistentialContainer"
+- !private "ExistentialContainerBuffer"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "Kind"
+- !private "MemoryLayout"
+- !private "RuntimeError"
+- "UnsafeMutableRawPointer"
+- "existentialHeaderSize"
+- "is64Bit"
+- !private "metadata"
+- "withClassValuePointer"
+- "withExistentialValuePointer"
+- !private "withUnsafePointer"
+- "withValuePointer"
+- !private "||"
+depends-member:
+- !private ["s7CVarArgP", "mutable"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "raw"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["SL", "advanced"]
+- !private ["SL", "mutable"]
+- !private ["SL", "pointee"]
+- !private ["SL", "raw"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "mutable"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "raw"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "mutable"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "raw"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["SQ", "advanced"]
+- ["SQ", "class"]
+- ["SQ", "existential"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mutable"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "raw"]
+- ["SQ", "struct"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["s5ErrorP", "couldNotGetPointer"]
+- !private ["7Runtime20ExistentialContainerV", "type"]
+- !private ["7Runtime26ExistentialContainerBufferV", "size"]
+- !private ["SH", "advanced"]
+- ["SH", "class"]
+- ["SH", "existential"]
+- !private ["SH", "init"]
+- !private ["SH", "mutable"]
+- !private ["SH", "pointee"]
+- !private ["SH", "raw"]
+- ["SH", "struct"]
+- !private ["SH", "withMemoryRebound"]
+- ["7Runtime4KindO", "class"]
+- !private ["7Runtime4KindO", "deinit"]
+- ["7Runtime4KindO", "existential"]
+- !private ["7Runtime4KindO", "init"]
+- ["7Runtime4KindO", "struct"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["7Runtime12MetadataInfoP", "kind"]
+- !private ["7Runtime12MetadataInfoP", "size"]
+- !private ["7Runtime0A5ErrorO", "couldNotGetPointer"]
+- !private ["7Runtime0A5ErrorO", "deinit"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "mutable"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "raw"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["Sp", "raw"]
+- !private ["Sv", "advanced"]
+- !private ["SP", "mutable"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "mutable"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "raw"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "mutable"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "raw"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "7Runtime20ExistentialContainerV"
+- !private "7Runtime26ExistentialContainerBufferV"
+- "SH"
+- "7Runtime4KindO"
+- !private "s12MemoryLayoutO"
+- !private "7Runtime12MetadataInfoP"
+- !private "7Runtime0A5ErrorO"
+- !private "Sx"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/Runtime/Runtime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/CRuntime/CRuntime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/Runtime.build/unextended-module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/CRuntime.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c5ed9922c7a3aad0ee04e70e5dc6e8a2"

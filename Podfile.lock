@@ -1,0 +1,20 @@
+PODS:
+  - CRuntime (2.1.2)
+  - Runtime (2.1.1):
+    - CRuntime
+
+DEPENDENCIES:
+  - Runtime (~> 2.1.1)
+
+SPEC REPOS:
+  trunk:
+    - CRuntime
+    - Runtime
+
+SPEC CHECKSUMS:
+  CRuntime: d7ae373e07ab36e92ad273259557e3817e0c214b
+  Runtime: 2b0e7604e598b52c698c64f0b961640c074ed75e
+
+PODFILE CHECKSUM: 33f6da6d269a410a735ce203e7880c54a7ffbffb
+
+COCOAPODS: 1.9.3

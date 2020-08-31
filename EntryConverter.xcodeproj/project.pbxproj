@@ -3,13 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39220914D63788405374FD08 /* Pods_EntryConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B061F77DA485C8D86076901 /* Pods_EntryConverter.framework */; };
 		4EDF9E1524F449C300BA7BD8 /* EntryConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDF9E0B24F449C200BA7BD8 /* EntryConverter.framework */; };
 		4EDF9E1A24F449C300BA7BD8 /* EntryConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF9E1924F449C300BA7BD8 /* EntryConverterTests.swift */; };
 		4EDF9E1C24F449C300BA7BD8 /* EntryConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDF9E0E24F449C200BA7BD8 /* EntryConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDF9E2624F44B5800BA7BD8 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF9E2524F44B5800BA7BD8 /* Converter.swift */; };
+		4EDF9E2824F4DFEA00BA7BD8 /* Runtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDF9E2724F4DFEA00BA7BD8 /* Runtime.framework */; };
+		4EDF9E2A24F4E00700BA7BD8 /* CRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDF9E2924F4E00700BA7BD8 /* CRuntime.framework */; };
+		4EDF9E2F24F4E09B00BA7BD8 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF9E2C24F4E09A00BA7BD8 /* Asset.swift */; };
+		4EDF9E3024F4E09B00BA7BD8 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF9E2D24F4E09A00BA7BD8 /* Field.swift */; };
+		4EDF9E3124F4E09B00BA7BD8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF9E2E24F4E09B00BA7BD8 /* Entry.swift */; };
+		8FF07ABC847205AD9E98DFB0 /* Pods_EntryConverter_EntryConverterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA69A408E21622C2CB0E3D1E /* Pods_EntryConverter_EntryConverterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +31,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		484F87C0D16026AB1DED64F2 /* Pods-EntryConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntryConverter.debug.xcconfig"; path = "Target Support Files/Pods-EntryConverter/Pods-EntryConverter.debug.xcconfig"; sourceTree = "<group>"; };
 		4EDF9E0B24F449C200BA7BD8 /* EntryConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EntryConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF9E0E24F449C200BA7BD8 /* EntryConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryConverter.h; sourceTree = "<group>"; };
 		4EDF9E0F24F449C200BA7BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EDF9E1424F449C300BA7BD8 /* EntryConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntryConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF9E1924F449C300BA7BD8 /* EntryConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryConverterTests.swift; sourceTree = "<group>"; };
 		4EDF9E1B24F449C300BA7BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF9E2524F44B5800BA7BD8 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		4EDF9E2724F4DFEA00BA7BD8 /* Runtime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Runtime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDF9E2924F4E00700BA7BD8 /* CRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDF9E2C24F4E09A00BA7BD8 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		4EDF9E2D24F4E09A00BA7BD8 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		4EDF9E2E24F4E09B00BA7BD8 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		660C1E67232CB06AA505B326 /* Pods-EntryConverter-EntryConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntryConverter-EntryConverterTests.debug.xcconfig"; path = "Target Support Files/Pods-EntryConverter-EntryConverterTests/Pods-EntryConverter-EntryConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		679581375309245F1BA0604E /* Pods-EntryConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntryConverter.release.xcconfig"; path = "Target Support Files/Pods-EntryConverter/Pods-EntryConverter.release.xcconfig"; sourceTree = "<group>"; };
+		6B061F77DA485C8D86076901 /* Pods_EntryConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntryConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69A408E21622C2CB0E3D1E /* Pods_EntryConverter_EntryConverterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntryConverter_EntryConverterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB350EF22DE9706DA5B2897 /* Pods-EntryConverter-EntryConverterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntryConverter-EntryConverterTests.release.xcconfig"; path = "Target Support Files/Pods-EntryConverter-EntryConverterTests/Pods-EntryConverter-EntryConverterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39220914D63788405374FD08 /* Pods_EntryConverter.framework in Frameworks */,
+				4EDF9E2824F4DFEA00BA7BD8 /* Runtime.framework in Frameworks */,
+				4EDF9E2A24F4E00700BA7BD8 /* CRuntime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDF9E1524F449C300BA7BD8 /* EntryConverter.framework in Frameworks */,
+				8FF07ABC847205AD9E98DFB0 /* Pods_EntryConverter_EntryConverterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,8 @@
 				4EDF9E0D24F449C200BA7BD8 /* EntryConverter */,
 				4EDF9E1824F449C300BA7BD8 /* EntryConverterTests */,
 				4EDF9E0C24F449C200BA7BD8 /* Products */,
+				F033992FB684DB3B9AC550C4 /* Pods */,
+				B06E442BD7D1140D7CE76E89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +97,7 @@
 		4EDF9E0D24F449C200BA7BD8 /* EntryConverter */ = {
 			isa = PBXGroup;
 			children = (
+				4EDF9E2B24F4E04E00BA7BD8 /* Source */,
 				4EDF9E0E24F449C200BA7BD8 /* EntryConverter.h */,
 				4EDF9E0F24F449C200BA7BD8 /* Info.plist */,
 			);
@@ -84,6 +111,39 @@
 				4EDF9E1B24F449C300BA7BD8 /* Info.plist */,
 			);
 			path = EntryConverterTests;
+			sourceTree = "<group>";
+		};
+		4EDF9E2B24F4E04E00BA7BD8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF9E2C24F4E09A00BA7BD8 /* Asset.swift */,
+				4EDF9E2E24F4E09B00BA7BD8 /* Entry.swift */,
+				4EDF9E2D24F4E09A00BA7BD8 /* Field.swift */,
+				4EDF9E2524F44B5800BA7BD8 /* Converter.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B06E442BD7D1140D7CE76E89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF9E2924F4E00700BA7BD8 /* CRuntime.framework */,
+				4EDF9E2724F4DFEA00BA7BD8 /* Runtime.framework */,
+				6B061F77DA485C8D86076901 /* Pods_EntryConverter.framework */,
+				AA69A408E21622C2CB0E3D1E /* Pods_EntryConverter_EntryConverterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F033992FB684DB3B9AC550C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				484F87C0D16026AB1DED64F2 /* Pods-EntryConverter.debug.xcconfig */,
+				679581375309245F1BA0604E /* Pods-EntryConverter.release.xcconfig */,
+				660C1E67232CB06AA505B326 /* Pods-EntryConverter-EntryConverterTests.debug.xcconfig */,
+				DDB350EF22DE9706DA5B2897 /* Pods-EntryConverter-EntryConverterTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDF9E1F24F449C300BA7BD8 /* Build configuration list for PBXNativeTarget "EntryConverter" */;
 			buildPhases = (
+				48B4B3A0082298EE58B6597B /* [CP] Check Pods Manifest.lock */,
 				4EDF9E0624F449C200BA7BD8 /* Headers */,
 				4EDF9E0724F449C200BA7BD8 /* Sources */,
 				4EDF9E0824F449C200BA7BD8 /* Frameworks */,
@@ -122,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDF9E2224F449C300BA7BD8 /* Build configuration list for PBXNativeTarget "EntryConverterTests" */;
 			buildPhases = (
+				1D93236FFABF94D2BBEEEA2B /* [CP] Check Pods Manifest.lock */,
 				4EDF9E1024F449C300BA7BD8 /* Sources */,
 				4EDF9E1124F449C300BA7BD8 /* Frameworks */,
 				4EDF9E1224F449C300BA7BD8 /* Resources */,
+				743D15820CAE925AF698C1BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +211,7 @@
 				TargetAttributes = {
 					4EDF9E0A24F449C200BA7BD8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					4EDF9E1324F449C300BA7BD8 = {
 						CreatedOnToolsVersion = 11.5;
@@ -190,11 +254,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D93236FFABF94D2BBEEEA2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EntryConverter-EntryConverterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B4B3A0082298EE58B6597B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EntryConverter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		743D15820CAE925AF698C1BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntryConverter-EntryConverterTests/Pods-EntryConverter-EntryConverterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntryConverter-EntryConverterTests/Pods-EntryConverter-EntryConverterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EntryConverter-EntryConverterTests/Pods-EntryConverter-EntryConverterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EDF9E0724F449C200BA7BD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDF9E3124F4E09B00BA7BD8 /* Entry.swift in Sources */,
+				4EDF9E2F24F4E09B00BA7BD8 /* Asset.swift in Sources */,
+				4EDF9E2624F44B5800BA7BD8 /* Converter.swift in Sources */,
+				4EDF9E3024F4E09B00BA7BD8 /* Field.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +471,9 @@
 		};
 		4EDF9E2024F449C300BA7BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484F87C0D16026AB1DED64F2 /* Pods-EntryConverter.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UPK5P95WFB;
@@ -356,6 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CG.EntryConverter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +498,9 @@
 		};
 		4EDF9E2124F449C300BA7BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679581375309245F1BA0604E /* Pods-EntryConverter.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UPK5P95WFB;
@@ -387,7 +524,9 @@
 		};
 		4EDF9E2324F449C300BA7BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660C1E67232CB06AA505B326 /* Pods-EntryConverter-EntryConverterTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPK5P95WFB;
 				INFOPLIST_FILE = EntryConverterTests/Info.plist;
@@ -405,7 +544,9 @@
 		};
 		4EDF9E2424F449C300BA7BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB350EF22DE9706DA5B2897 /* Pods-EntryConverter-EntryConverterTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPK5P95WFB;
 				INFOPLIST_FILE = EntryConverterTests/Info.plist;

@@ -1,0 +1,367 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NominalMetadataType"
+provides-nominal:
+- "7Runtime19NominalMetadataTypeP"
+provides-member:
+- ["7Runtime19NominalMetadataTypeP", ""]
+- ["7Runtime19NominalMetadataTypeP", "genericArgumentOffset"]
+- ["7Runtime19NominalMetadataTypeP", "isGeneric"]
+- ["7Runtime19NominalMetadataTypeP", "mangledName"]
+- ["7Runtime19NominalMetadataTypeP", "numberOfFields"]
+- ["7Runtime19NominalMetadataTypeP", "fieldOffsets"]
+- ["7Runtime19NominalMetadataTypeP", "properties"]
+- ["7Runtime19NominalMetadataTypeP", "genericArguments"]
+- ["7Runtime19NominalMetadataTypeP", "genericArgumentVector"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "..<"
+- !private ">"
+- "Bool"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "MetadataType"
+- "NominalMetadataLayoutType"
+- "NominalMetadataType"
+- "PropertyInfo"
+- "String"
+- "UnsafeMutablePointer"
+- !private "UnsafeRawPointer"
+- "Vector"
+- !private "numericCast"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "raw"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "advanced"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "raw"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "raw"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "raw"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "advanced"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "vector"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["7Runtime18DefaultConstructorP", "init"]
+- !private ["7Runtime18DefaultConstructorP", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "raw"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7Runtime15FieldDescriptorV", "fields"]
+- !private ["7Runtime11FieldRecordV", "callAsFunction"]
+- !private ["7Runtime11FieldRecordV", "fieldName"]
+- !private ["7Runtime11FieldRecordV", "isVar"]
+- !private ["7Runtime11FieldRecordV", "type"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "advanced"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "pointee"]
+- !private ["SH", "raw"]
+- !private ["SH", "subscript"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["7Runtime12MetadataInfoP", "Bool"]
+- ["7Runtime12MetadataInfoP", "Int"]
+- ["7Runtime12MetadataInfoP", "Layout"]
+- !private ["7Runtime12MetadataInfoP", "MemoryLayout"]
+- ["7Runtime12MetadataInfoP", "NominalMetadataLayoutType"]
+- ["7Runtime12MetadataInfoP", "PropertyInfo"]
+- ["7Runtime12MetadataInfoP", "String"]
+- ["7Runtime12MetadataInfoP", "UnsafeMutablePointer"]
+- !private ["7Runtime12MetadataInfoP", "UnsafeRawPointer"]
+- ["7Runtime12MetadataInfoP", "Vector"]
+- !private ["7Runtime12MetadataInfoP", "fieldOffsets"]
+- ["7Runtime12MetadataInfoP", "genericArgumentOffset"]
+- !private ["7Runtime12MetadataInfoP", "genericArgumentVector"]
+- !private ["7Runtime12MetadataInfoP", "isGeneric"]
+- !private ["7Runtime12MetadataInfoP", "numberOfFields"]
+- !private ["7Runtime12MetadataInfoP", "numericCast"]
+- !private ["7Runtime12MetadataInfoP", "pointer"]
+- !private ["7Runtime12MetadataInfoP", "type"]
+- !private ["7Runtime18MetadataLayoutTypeP", "typeDescriptor"]
+- ["7Runtime12MetadataTypeP", "Bool"]
+- ["7Runtime12MetadataTypeP", "Int"]
+- ["7Runtime12MetadataTypeP", "Layout"]
+- !private ["7Runtime12MetadataTypeP", "MemoryLayout"]
+- ["7Runtime12MetadataTypeP", "NominalMetadataLayoutType"]
+- ["7Runtime12MetadataTypeP", "PropertyInfo"]
+- ["7Runtime12MetadataTypeP", "String"]
+- ["7Runtime12MetadataTypeP", "UnsafeMutablePointer"]
+- !private ["7Runtime12MetadataTypeP", "UnsafeRawPointer"]
+- ["7Runtime12MetadataTypeP", "Vector"]
+- ["7Runtime12MetadataTypeP", ""]
+- !private ["7Runtime12MetadataTypeP", "fieldOffsets"]
+- ["7Runtime12MetadataTypeP", "genericArgumentOffset"]
+- !private ["7Runtime12MetadataTypeP", "genericArgumentVector"]
+- !private ["7Runtime12MetadataTypeP", "isGeneric"]
+- !private ["7Runtime12MetadataTypeP", "numberOfFields"]
+- !private ["7Runtime12MetadataTypeP", "numericCast"]
+- !private ["7Runtime12MetadataTypeP", "pointer"]
+- !private ["7Runtime12MetadataTypeP", "type"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["7Runtime25NominalMetadataLayoutTypeP", "typeDescriptor"]
+- ["7Runtime19NominalMetadataTypeP", "Bool"]
+- ["7Runtime19NominalMetadataTypeP", "Int"]
+- ["7Runtime19NominalMetadataTypeP", "Layout"]
+- !private ["7Runtime19NominalMetadataTypeP", "MemoryLayout"]
+- ["7Runtime19NominalMetadataTypeP", "NominalMetadataLayoutType"]
+- ["7Runtime19NominalMetadataTypeP", "PropertyInfo"]
+- ["7Runtime19NominalMetadataTypeP", "String"]
+- ["7Runtime19NominalMetadataTypeP", "UnsafeMutablePointer"]
+- !private ["7Runtime19NominalMetadataTypeP", "UnsafeRawPointer"]
+- ["7Runtime19NominalMetadataTypeP", "Vector"]
+- ["7Runtime19NominalMetadataTypeP", "fieldOffsets"]
+- ["7Runtime19NominalMetadataTypeP", "genericArgumentOffset"]
+- ["7Runtime19NominalMetadataTypeP", "genericArgumentVector"]
+- ["7Runtime19NominalMetadataTypeP", "genericArguments"]
+- ["7Runtime19NominalMetadataTypeP", "isGeneric"]
+- ["7Runtime19NominalMetadataTypeP", "mangledName"]
+- ["7Runtime19NominalMetadataTypeP", "numberOfFields"]
+- !private ["7Runtime19NominalMetadataTypeP", "numericCast"]
+- !private ["7Runtime19NominalMetadataTypeP", "pointer"]
+- ["7Runtime19NominalMetadataTypeP", "properties"]
+- !private ["7Runtime19NominalMetadataTypeP", "type"]
+- !private ["Sj", "init"]
+- !private ["7Runtime12PropertyInfoV", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "map"]
+- !private ["SX", "map"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["7Runtime15RelativePointerV", "advanced"]
+- !private ["7Runtime21RelativeVectorPointerV", "vector"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "raw"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["7Runtime36TargetGenericContextDescriptorHeaderV", "numberOfParams"]
+- !private ["7Runtime40TargetTypeGenericContextDescriptorHeaderV", "base"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Runtime14TypeDescriptorP", "fieldDescriptor"]
+- !private ["7Runtime14TypeDescriptorP", "flags"]
+- !private ["7Runtime14TypeDescriptorP", "genericContextHeader"]
+- !private ["7Runtime14TypeDescriptorP", "mangledName"]
+- !private ["7Runtime14TypeDescriptorP", "numberOfFields"]
+- !private ["7Runtime14TypeDescriptorP", "offsetToTheFieldOffsetVector"]
+- ["7Runtime19TypeInfoConvertibleP", "Bool"]
+- ["7Runtime19TypeInfoConvertibleP", "Int"]
+- ["7Runtime19TypeInfoConvertibleP", "Layout"]
+- !private ["7Runtime19TypeInfoConvertibleP", "MemoryLayout"]
+- ["7Runtime19TypeInfoConvertibleP", "NominalMetadataLayoutType"]
+- ["7Runtime19TypeInfoConvertibleP", "PropertyInfo"]
+- ["7Runtime19TypeInfoConvertibleP", "String"]
+- ["7Runtime19TypeInfoConvertibleP", "UnsafeMutablePointer"]
+- !private ["7Runtime19TypeInfoConvertibleP", "UnsafeRawPointer"]
+- ["7Runtime19TypeInfoConvertibleP", "Vector"]
+- !private ["7Runtime19TypeInfoConvertibleP", "fieldOffsets"]
+- ["7Runtime19TypeInfoConvertibleP", "genericArgumentOffset"]
+- !private ["7Runtime19TypeInfoConvertibleP", "genericArgumentVector"]
+- !private ["7Runtime19TypeInfoConvertibleP", "isGeneric"]
+- !private ["7Runtime19TypeInfoConvertibleP", "numberOfFields"]
+- !private ["7Runtime19TypeInfoConvertibleP", "numericCast"]
+- !private ["7Runtime19TypeInfoConvertibleP", "pointer"]
+- !private ["7Runtime19TypeInfoConvertibleP", "type"]
+- !private ["SR", "map"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "raw"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["7Runtime6VectorV", "element"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "raw"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "raw"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "7Runtime18DefaultConstructorP"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Runtime15FieldDescriptorV"
+- !private "7Runtime11FieldRecordV"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "7Runtime12MetadataInfoP"
+- !private "7Runtime18MetadataLayoutTypeP"
+- "7Runtime12MetadataTypeP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "7Runtime25NominalMetadataLayoutTypeP"
+- "7Runtime19NominalMetadataTypeP"
+- !private "Sj"
+- !private "7Runtime12PropertyInfoV"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "7Runtime15RelativePointerV"
+- !private "7Runtime21RelativeVectorPointerV"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "7Runtime36TargetGenericContextDescriptorHeaderV"
+- !private "7Runtime40TargetTypeGenericContextDescriptorHeaderV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Runtime14TypeDescriptorP"
+- "7Runtime19TypeInfoConvertibleP"
+- !private "SR"
+- !private "Sp"
+- !private "Sv"
+- !private "7Runtime6VectorV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/Runtime/Runtime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/Target Support Files/CRuntime/CRuntime-umbrella.h"
+- "/Users/chaimgross/Desktop/EntryConverter/Pods/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/Runtime.build/unextended-module.modulemap"
+- "/Users/chaimgross/Desktop/EntryConverter/build/Pods.build/Debug-iphonesimulator/CRuntime.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f55062f3f9d28dd15090f9ca5da2d475"

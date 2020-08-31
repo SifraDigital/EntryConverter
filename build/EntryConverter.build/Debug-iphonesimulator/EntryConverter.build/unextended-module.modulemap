@@ -1,0 +1,10 @@
+framework module EntryConverter {
+  umbrella header "EntryConverter.h"
+
+  export *
+  module * { export * }
+}
+
+module EntryConverter.__Swift {
+    exclude header "EntryConverter-Swift.h"
+}

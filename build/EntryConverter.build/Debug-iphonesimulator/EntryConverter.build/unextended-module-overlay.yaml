@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/chaimgross/Desktop/EntryConverter/build/Debug-iphonesimulator/EntryConverter.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/chaimgross/Desktop/EntryConverter/build/EntryConverter.build/Debug-iphonesimulator/EntryConverter.build/unextended-module.modulemap",
+    }]
+  }]
+}
