@@ -87,8 +87,19 @@ public class Entry {
     
     func getReferenceArray(_ key: String) -> [Entry]? {
         if let f = fields.first(where: {$0.key == key}) {
-            return (f.value as! [Entry])
+            if let value = f.value as? [Entry] {
+                return value
+            }
         }
         return nil
     }
+    
+    func getStringArray(_ key: String) -> [String]? {
+          if let f = fields.first(where: {$0.key == key}) {
+              if let value = f.value as? [String] {
+                  return value
+              }
+          }
+          return nil
+      }
 }

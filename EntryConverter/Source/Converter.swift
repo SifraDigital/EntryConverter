@@ -129,6 +129,11 @@ public class EntryConverter {
                                 let mappedItems = entryArray.compactMap{fromEntry(entry: $0, clazz:innerType as! NSObject.Type)}
                                 try property.set(value: mappedItems, on: &result)
                             }
+                            else { // Primitive array
+                                if let mappedPrimitives = entry.getStringArray(property.name) {
+                                    try property.set(value: mappedPrimitives, on: &result)
+                                }
+                            }
                         }
                         else if let innerEntry = entry.getReference(property.name) {
                             try property.set(value: fromEntry(entry: innerEntry, clazz: innerType as! NSObject.Type), on: &result)
