@@ -16,6 +16,7 @@ provides-dynamic-lookup:
 - "getReference"
 - "getReferenceArray"
 - "getString"
+- "getStringArray"
 - "id"
 - "updated"
 depends-top-level:
@@ -106,6 +107,7 @@ depends-member:
 - ["14EntryConverter0A0C", "getReference"]
 - ["14EntryConverter0A0C", "getReferenceArray"]
 - ["14EntryConverter0A0C", "getString"]
+- ["14EntryConverter0A0C", "getStringArray"]
 - ["14EntryConverter0A0C", "id"]
 - ["14EntryConverter0A0C", "init"]
 - ["14EntryConverter0A0C", "updated"]
@@ -304,4 +306,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "74ea5e000a6d2ba6c2a341eb25bc4da2"
+interface-hash: "f470d526273cd538c09248efc4e3992d"
