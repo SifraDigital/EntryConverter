@@ -13,6 +13,8 @@ import SwiftyJSON
 
 public class EntryConverter {
     
+    static let specialCases = ["itemDescription", "id", "created", "updated"]
+    
     private static let dateTimeFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.calendar = Calendar(identifier: .iso8601)
@@ -82,7 +84,7 @@ public class EntryConverter {
             var result = try createInstance(of: clazz)
             let info = try typeInfo(of: clazz)
             for property in info.properties {
-                if entry.fields.map({$0.key}).contains(property.name) || property.name == "itemDescription" {
+                if entry.fields.map({$0.key}).contains(property.name) || specialCases.contains(property.name) {
                     switch property.type {
                     case is Int.Type, is Optional<Int>.Type:
                         //result.setValue(entry.getInt(property.name), forKey: property.name)
